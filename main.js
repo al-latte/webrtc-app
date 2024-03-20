@@ -1,7 +1,7 @@
 import './style.css'
 
-import { initializeApp } from 'firebase/app';
-import { getFirestore, collection, doc, getDoc, addDoc, updateDoc, onSnapshot } from 'firebase/firestore';
+import { initializeApp } from '/firebase/app';
+import { getFirestore, collection, doc, getDoc, addDoc, updateDoc, onSnapshot } from '/firebase/firestore';
 // import { RTCPeerConnection, RTCSessionDescription, RTCIceCandidate } from 'wrtc';
 
 const firebaseConfig = {
